@@ -114,7 +114,7 @@ body {
 }
 
 h1, h2, h3 {
-	font-weight: 300;
+	font-weight: 200 !important;
 }
 
 h1 {
@@ -461,7 +461,7 @@ div.tab-pane > div {
 	color: #555;
 }
 
-.nav-tabs > li > a {
+.nav.nav-tabs > li > a {
 	padding: 10px 0px 10px 0px;
 }
 
