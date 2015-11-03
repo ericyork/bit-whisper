@@ -39,7 +39,7 @@ h1 a, h2 a, h3 a {
 }
 
 h1 a:visited, h2 a:visited, h3 a:visited {
-	color: #7F3513;
+	color: #777;
 	font-weight: 300 !important;
 }
 
@@ -273,7 +273,7 @@ ul.nav > li > a:link {
 }
 
 ul.nav > li > a:visited {
-	color: #7F3513
+	color: #FAFAFA
 }
 
 ul.nav > li > a:hover {
