@@ -1,9 +1,9 @@
 #Bit-whisper
-A simple portfolio theme for bootstrap, with carousels and tabbed content areas.
+An academic portfolio theme for bootstrap, with multiple image carousels and tabbed content areas.
 Designed to fit a lot of information into a small space and still keep it manageable.
 
 ##Dependencies
-Uses bootstrap, jquery and jqueryUI libraries.
+Uses bootstrap, jQuery and jQueryUI libraries.
 
 ##Authors and Contributors
-Eric York at http://ericjyork.com
+by Eric York at http://ericjyork.com
