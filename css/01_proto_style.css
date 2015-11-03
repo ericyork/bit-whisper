@@ -1,0 +1,580 @@
+/*--/////////////////////////////////     
+------ General and Body Styles -------- 
+/////////////////////////////////--*/
+/*--Color codes--*/
+/*-- A100D8 brightest purple---*/
+/*-- 8B359D bright purple--*/
+/*-- EEE1F1 very light purple--*/
+/*-- D09DDB medium purple--*/
+/*-- A100D8  purple---*/
+/*-- 8B359D  purple--*/
+/*-- EEE1F1  purple--*/
+/*-- D09DDB  purple--*/
+
+a:link {
+	text-decoration: none !important;
+	color: #8B359D;
+	font-weight: 600;
+}
+
+a:visited {
+	color: #9379A0;
+}
+
+a:hover {
+	color: #A100D8;
+}
+
+a:focus {
+	outline-color: transparent;
+    text-decoration: none;
+    color: #A100D8;
+}
+
+h1 a, h2 a, h3 a {
+	color: #777;
+	font-weight: 300 !important;
+}
+
+h1 a:visited, h2 a:visited, h3 a:visited {
+	color: #9379A0;
+	font-weight: 300 !important;
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover {
+	color: #A100D8;
+	font-weight: 300 !important;
+}
+
+
+img {
+	margin-bottom: 10px;
+}
+
+ol, ul {
+	line-height: 1.8em;
+}
+
+body {
+	/*font-family: TeXGyreHeros, FreeSans, "Nimbus Sans L", "Liberation Sans", Arimo, Helvetica, Verdana, sans-serif;*/
+	font-family: TeXGyreHeros, FreeSans, "Nimbus Sans L", "Liberation Sans", Lato, Helvetica, Verdana, sans-serif;
+	background: #FFF;
+	font-size: 14px;
+}
+
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+
+
+body {
+	color: #555;
+}
+
+body {
+	padding-top: 60px;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+#intro {
+	margin-top: 0px;
+}
+
+#sum {
+	margin-top: 10px;
+}
+
+#port {
+	margin-top: 40px;
+	border-top: 2px dashed #EEE1F1;
+}
+
+#docs {
+	margin-top: 40px;
+	padding-bottom: 10px;
+}
+
+.gray {
+	/*background-color: #EEE1F1;*/
+	background-color: #F9EFFB;
+	padding-top: 20px;
+	padding-bottom: 5px;
+}
+
+.dr {
+	font-size: 65% !important;
+}
+
+.accent {
+	color: #888;
+}
+
+h1, h2, h3 {
+	font-weight: 300;
+}
+
+h1 {
+	color: #777;
+	padding-left: 14px;
+}
+
+#port > div > div > h1 {
+	padding-left: 0px;
+	margin-left: 0px;
+}
+
+#docs > div > div > h1 {
+	padding-left: 0px;
+	margin-left: 0px;
+}
+
+#port > div > div > p {
+	font-size: 16px;
+}
+
+#docs > div > div > p {
+	font-size: 16px;
+}
+
+
+h4 {
+	color: #555;
+	padding-top: 8px;
+	margin-bottom: 4px;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 95% !important;
+}
+
+.shrink {
+	font-size: 90%;
+	text-transform: none;
+	font-weight: 700;
+	padding-top: 0px;
+	margin-bottom: 0px;
+	margin-right: -13px;
+	color: #777;
+}
+
+.lower-caption {
+	margin-top: 0px; 
+	text-align: center;
+	color: #777;
+}
+
+
+/*--/////////////////////////////////     
+----- Background Image Styles ------
+/////////////////////////////////--*/
+
+span.isu {
+	color: #777;
+	border-bottom: 1px solid #CCC;
+	padding: 0 7px 5px 0;
+	border-radius: 15px;
+	display: block;
+	text-align: right;
+	margin-top: -12px;
+}
+
+.husson {
+	color: #777;
+	border-bottom: 1px solid #CCC;
+	padding: 0 7px 5px 0;
+	border-radius: 15px;
+	display: block;
+	text-align: right;
+	margin-top: -12px;}
+
+.kvcc {
+	color: #777;
+	border-bottom: 1px solid #CCC;
+	padding: 0 7px 5px 0;
+	border-radius: 15px;
+	display: block;
+	text-align: right;
+	margin-top: -12px;}
+
+.umaine {
+	color: #777;
+	border-bottom: 1px solid #CCC;
+	padding: 0 7px 5px 0;
+	border-radius: 15px;
+	display: block;
+	text-align: right;
+	margin-top: -12px;
+}
+
+/*--/////////////////////////////////     
+------ Nav Menu Styles --- 
+/////////////////////////////////--*/
+
+.navbar-fixed-top {
+	background-color: rgba(0,0,0,0.6);
+}
+
+.navbar-toggle.collapsed {
+	border: 1px solid #EEE1F1;
+}
+
+.navbar-toggle .icon-bar {
+	background: #EEE1F1;
+}
+
+.navbar-toggle.collapsed:hover {
+	background: #EEE1F1;
+}
+
+.navbar-toggle:hover .icon-bar, .navbar-toggle:active .icon-bar, .navbar-toggle:focus .icon-bar {
+	background: #555;
+}
+
+.navbar-toggle.collapsed:focus .icon-bar {
+	background: #EEE1F1;
+}
+
+p.pull-right.visible-xs {
+	margin: 0 !important;
+}
+
+/*--/////////////////////////////////     
+------ Navbar Link Styles ------
+/////////////////////////////////--*/
+
+a.navbar-brand:link {
+	text-decoration: none !important;
+	color: #EEE1F1;
+	font-weight: 600;
+}
+
+a.navbar-brand:visited {
+	color: #EEE1F1;
+}
+
+a.navbar-brand:hover {
+	color: #FFF;
+}
+
+a.navbar-brand:focus {
+	outline-color: #EEE1F1;
+    text-decoration: none;
+}
+
+ul.nav > li > a:link {
+	text-decoration: none !important;
+	color: #FFF;
+	font-weight: 600;
+}
+
+ul.nav > li > a:visited {
+	color: #DFD3E4
+}
+
+ul.nav > li > a:hover {
+	color: #A100D8;
+}
+
+ul.nav > li > a:focus {
+	outline-color: #EEE1F1;
+    text-decoration: none;
+    background: EAEAEA;
+    color: #A100D8;
+}
+
+/*--/////////////////////////////////     
+------ Carousel Styles ------
+/////////////////////////////////--*/
+
+.item {
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+#port > .row {
+	margin-right: -25px;
+	margin-left: -25px;
+}
+
+#carousel1 > .carousel-control {
+    display: none;
+}
+
+#carousel1 > .carousel-indicators {
+    display: none;
+}
+
+.carousel-control {
+    background-image: none !important;
+}
+
+.carousel-indicators li {
+	background-color: #999;
+	background-color: rgba(70,70,70,.6);
+	-webkit-transition: background 0.3s ease-in;
+	-moz-transition: background 0.3s ease-in;
+	-ms-transition: background 0.3s ease-in;
+    -o-transition: background 0.3s ease-in;
+	transition: background 0.3s ease-in;
+}
+
+.carousel-indicators .active {
+  background-color: #A100D8;
+}
+
+#carousel2, #carousel3 {
+	padding-bottom: 10px;
+}
+
+.carousel-caption {
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	-webkit-transition: background 0.3s ease-in;
+    -moz-transition: background 0.3s ease-in;
+    -ms-transition: background 0.3s ease-in;
+    -o-transition: background 0.3s ease-in;
+    transition: background 0.3s ease-in;
+	background: transparent;
+	text-shadow: none;
+    color: transparent;
+}
+
+.carousel-caption a {
+position:absolute; 
+width:100%; 
+height:100%; 
+top:0; 
+left:0; 
+text-decoration:none; /* Makes sure the link doesn't get underlined */ 
+z-index:100; /* raises anchor tag above everything else in div */ 
+}
+
+.carousel-caption h3 {
+	padding-top: 12%;
+	font-weight: 700 !important;
+	font-size: 180% !important;
+	-webkit-transition: color 0.3s ease-in;
+    -moz-transition: color 0.3s ease-in;
+    -ms-transition: color 0.3s ease-in;
+    -o-transition: color 0.3s ease-in;
+    transition: color 0.3s ease-in;
+}
+
+.carousel-caption p {
+	padding: 0 80px 0px 80px;
+	font-weight: 700 !important;
+	font-size: 130% !important;
+	-webkit-transition: color 0.3s ease-in;
+    -moz-transition: color 0.3s ease-in;
+    -ms-transition: color 0.3s ease-in;
+    -o-transition: color 0.3s ease-in;
+    transition: color 0.3s ease-in;
+}
+
+a > span.glyphicon-chevron-right {
+	text-shadow: none;
+}
+
+a:hover > span.glyphicon-chevron-right {
+	color: #A100D8;
+}
+
+a > span.glyphicon-chevron-left {
+	text-shadow: none;
+}
+
+a:hover > span.glyphicon-chevron-left {
+	color: #A100D8;
+}
+
+.carousel-caption:hover h3 {
+	color: #444;
+}
+
+.carousel-caption:hover p {
+	color: #A100D8;
+}
+
+.carousel-caption:hover {
+	background: rgba(249, 239, 251, 0.88);
+	background-clip: border-box;
+}
+
+/*--/////////////////////////////////
+------- Carousel Fade --------------
+//////////////////////////////////// --*/
+
+/*--
+.carousel .item {
+    left: 0 !important;
+      -webkit-transition: opacity .8s ease-out; 
+         -moz-transition: opacity .8s ease-out;
+           -o-transition: opacity .8s ease-out;
+              transition: opacity .8s ease-out;
+}
+.carousel-control {
+    background-image: none !important;
+}
+.next.left,
+.prev.right {
+    opacity: 1;
+    z-index: 1;
+}
+.active.left,
+.active.right {
+    opacity: 0;
+    z-index: 2;
+}--*/
+
+/*--/////////////////////////////////     
+------ Tab Panel Styles ------
+/////////////////////////////////--*/
+
+.tabs-box {
+	margin-top: -50px;
+}
+
+.tab-content h4 {
+	font-size: 18px;
+}
+
+.tab-content p {
+	font-size: 16px;
+}
+
+div.tab-pane > div {
+	background-color: transparent;
+	color: #555;
+}
+
+.tab-pane > div {
+	border: 1px solid transparent;
+}
+
+.tab-pane div h3 {
+	color: #555;
+}
+
+.nav-tabs > li > a {
+	padding: 10px 0px 10px 0px;
+}
+
+ul.nav-tabs > li.active > a {
+	background: transparent; 
+	color: #A100D8 !important;
+	border: 1px solid transparent;
+	/*border-bottom: 2px solid #A100D8 !important;*/
+}
+
+div#port > div > div > ul.nav-tabs > li.active > a {
+	color: #A100D8 !important;
+	border: 2px solid transparent;
+	/*border-bottom: 2px solid #A100D8 !important;*/
+}
+
+div#port > div > div > ul.nav-tabs > li.active > a:hover {
+	border: 2px solid transparent;
+	/*border-bottom: 2px solid #A100D8 !important;*/
+}
+
+.nav.nav-tabs > li > a:link {
+	background-color: transparent;
+	color: #777;
+	border: 2px solid transparent;
+	font-weight: 800;
+	font-size: 90%;
+	margin-right: 2px;
+	margin-left: 2px;
+	letter-spacing: 0px;
+}
+
+.nav.nav-tabs > li > a:hover {
+	background-color: transparent;
+	color: #A100D8;
+	border: 2px solid transparent;
+}
+
+.nav.nav-tabs > li > a:visited {
+	background-color: transparent;
+	color: #A100D8;
+	border: 2px solid transparent;
+}
+
+.nav.nav-tabs > li.active > a:focus {
+	border: 2px solid transparent;
+	background-color: transparent;
+	color: #A100D8 !important;
+	outline: 0;
+}
+
+.nav.nav-tabs > li.active > a:hover {
+	border: 2px solid transparent !important;
+}
+
+ul.nav.nav-tabs {
+	float: right;
+}
+
+/*--/////////////////////////////////     
+------ Footer Styles -------------
+/////////////////////////////////--*/
+
+
+footer {
+	/*background: rgba(136,152,164,0.5);*/
+	background: rgba(0,0,0,0.6);
+	padding: 20px 0px;
+	padding-bottom: 15px;
+}
+
+footer p {
+	color: #D9D9D9;
+}
+
+footer a:link {
+	color: #D9D9D9;
+}
+
+footer a:visited {
+	color: #D9D9D9;
+}
+
+footer a:hover {
+	color: #FFF;
+}
+
+
+/*--/////////////////////////////////     
+------ MediaQuery Styles -------------
+/////////////////////////////////--*/
+
+@media (min-width: 767px) and (max-width: 1200px) {
+
+	.nav-tabs > li > a {
+		padding: 10px 2px;
+	}
+}
+
+@media (min-width: 319px) and (max-width: 990px) {
+
+	ul.nav.nav-tabs {
+		float: none;
+		display: inline-block;
+	}
+	.tabs-box {
+		margin-top: -15px;
+	}
+}
+
+@media (max-width: 450px) {
+
+	.carousel-caption p {
+		display: none;
+	}
+}
