@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Home - Eric J. York</title>
+		<title>Home</title>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="Professional Website">
 		<meta name="author" content="Eric J. York">
 		<link href='https://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>		
-		<link href="frmwrk32/css/bootstrap.css" rel="stylesheet" media="screen">
-		<link href="01_proto_style.css" rel="stylesheet" media="screen">
+		<link href="css/01_proto_style.css" rel="stylesheet" media="screen">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
 		<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js'></script>
 		<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
 		<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
-		<script src="frmwrk32/js/bootstrap.js"></script>
-		<script src="frmwrk32/js/myscripts.js"></script>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!--[if lt IE 9]>
@@ -23,7 +26,7 @@
 		<![endif]-->
 	</head>
 	<body id="home">
-		<?php include('frmwrk32/php/top-nav.php'); ?>
+		<?php include('php/top-nav.php'); ?>
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12">
@@ -38,13 +41,13 @@
 					  <!-- Wrapper for slides -->
 					  <div class="carousel-inner" role="listbox">
 						<div class="item active">
-						  <img src="bxpix/wp2.png" alt="writing programs">
+						  <img src="pix/wp2.png" alt="writing programs">
 						</div>
 						<div class="item">
-						  <img src="bxpix/multi3.png" alt="multiliteracies">
+						  <img src="pix/multi3.png" alt="multiliteracies">
 						</div>
 						<div class="item">
-						  <img src="bxpix/techrhet3.png" alt="techno-rhetorics">
+						  <img src="pix/techrhet3.png" alt="techno-rhetorics">
 						</div>
 					  </div>
 					  <!-- Left and right controls -->
@@ -329,7 +332,7 @@
 					  <!-- Wrapper for slides -->
 					  <div class="carousel-inner" role="listbox">
 						<div class="item active">
-						  <img src="frmwrk32/images/250pd-2.jpg" alt="250pd">
+						  <img src="pix/250pd-2.jpg" alt="250pd">
 						  <div class="carousel-caption">
 						  	<a href="http://ericjyork.com/courses/course/view.php?id=9"></a>
 							<h3>Written, Oral, Visual, and Electronic Composition</h3>
@@ -337,7 +340,7 @@
 						  </div>
 						</div>
 						<div class="item">
-						  <img src="frmwrk32/images/313-2.jpg" alt="313">
+						  <img src="pix/313-2.jpg" alt="313">
 						  <div class="carousel-caption">
 						  	<a href="http://ericjyork.com/courses/course/view.php?id=4"></a>
 							<h3>Rhetorical Web Design</h3>
@@ -345,7 +348,7 @@
 						  </div>
 						</div>
 						<div class="item">
-						  <img src="frmwrk32/images/250ra-2.jpg" alt="250ra">
+						  <img src="pix/250ra-2.jpg" alt="250ra">
 						  <div class="carousel-caption">
 						  	<a href="http://ericjyork.com/courses/course/view.php?id=6"></a>
 							<h3>Honors Composition: Critical Media Literacy</h3>
@@ -353,7 +356,7 @@
 						  </div>
 						</div>
 						<div class="item">
-						  <img src="frmwrk32/images/314-2.jpg" alt="314">
+						  <img src="pix/314-2.jpg" alt="314">
 						  <div class="carousel-caption">
 						  	<a href="http://ericjyork.com/courses/course/view.php?id=8"></a>
 							<h3>Technical Communication</h3>
@@ -361,7 +364,7 @@
 						  </div>
 						</div>
 						<div class="item">
-						  <img src="frmwrk32/images/302-2.jpg" alt="302">
+						  <img src="pix/302-2.jpg" alt="302">
 						  <div class="carousel-caption">
 						  	<a href="http://ericjyork.com/courses/course/view.php?id=7"></a>
 							<h3>Business Communication</h3>
@@ -395,7 +398,7 @@
 					  <!-- Wrapper for slides -->
 					  <div class="carousel-inner" role="listbox">
 						<div class="item active">
-						  <img src="frmwrk32/images/sites-lg.png" alt="sites">
+						  <img src="pix/sites-lg.png" alt="sites">
 						  <div class="carousel-caption">
 						  	<a href="http://sites.isucomm.iastate.edu"></a>
 							<h3>ISUComm Sites</h3>
@@ -403,7 +406,7 @@
 						  </div>
 						</div>
 						<div class="item">
-						  <img src="frmwrk32/images/courses-lg.png" alt="courses">
+						  <img src="pix/courses-lg.png" alt="courses">
 						  <div class="carousel-caption">
 						  	<a href="http://courses.isucomm.iastate.edu"></a>
 							<h3>ISUComm Courses</h3>
@@ -411,7 +414,7 @@
 						  </div>
 						</div>
 						<div class="item">
-						  <img src="frmwrk32/images/elearn-lg.png" alt="elearning">
+						  <img src="pix/elearn-lg.png" alt="elearning">
 						  <div class="carousel-caption">
 						  	<a href="http://elearning.ieop.iastate.edu"></a>
 							<h3>IEOP eLearning</h3>
@@ -419,7 +422,7 @@
 						  </div>
 						</div>
 						<div class="item">
-						  <img src="frmwrk32/images/recoding-lg.png" alt="recoding">
+						  <img src="pix/recoding-lg.png" alt="recoding">
 						  <div class="carousel-caption">
 						  	<a href="http://ericjyork.com/recoding/?part=upvoted"></a>
 							<h3>re:Coding</h3>
@@ -584,24 +587,7 @@
 		</footer><!--/.footer-->
 		<!--script loading-->
 		<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js'></script>
-		<script src="frmwrk32/js/bootstrap.js"></script>
-		<script src="frmwrk32/js/myscripts.js"></script>
 		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-		<script src="frmwrk32/js/ie10-viewport-bug-workaround.js"></script>
-		<!-- Piwik -->
-		<script type="text/javascript">
-		  var _paq = _paq || [];
-		  _paq.push(['trackPageView']);
-		  _paq.push(['enableLinkTracking']);
-		  (function() {
-			var u="//ericjyork.com/piwik/";
-			_paq.push(['setTrackerUrl', u+'piwik.php']);
-			_paq.push(['setSiteId', 1]);
-			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-		  })();
-		</script>
-		<noscript><p><img src="//ericjyork.com/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
-		<!-- End Piwik Code -->
+		<script src="js/ie10-viewport-bug-workaround.js"></script>
 	</body>
 </html>
