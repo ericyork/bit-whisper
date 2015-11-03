@@ -5,30 +5,32 @@
 /*-- A100D8 brightest purple---*/
 /*-- 8B359D bright purple--*/
 /*-- EEE1F1 very light purple--*/
-/*-- D09DDB medium purple--*/
-/*-- A100D8  purple---*/
-/*-- 8B359D  purple--*/
-/*-- EEE1F1  purple--*/
-/*-- D09DDB  purple--*/
+/*-- --*/
+/*-- D3E0EA very light blue --*/
+/*-- 1B619B deep blue---*/
+/*-- ACCBE0 light blue--*/
+/*-- D75A20 orange--*/
+/*-- FF6B26 bright orange
+/*-- 7F3513 orange-brown--*/
 
 a:link {
 	text-decoration: none !important;
-	color: #8B359D;
+	color: #D75A20;
 	font-weight: 600;
 }
 
 a:visited {
-	color: #9379A0;
+	color: #7F3513;
 }
 
 a:hover {
-	color: #A100D8;
+	color: #FF6B26;
 }
 
 a:focus {
 	outline-color: transparent;
     text-decoration: none;
-    color: #A100D8;
+    color: #D75A20;
 }
 
 h1 a, h2 a, h3 a {
@@ -37,12 +39,12 @@ h1 a, h2 a, h3 a {
 }
 
 h1 a:visited, h2 a:visited, h3 a:visited {
-	color: #9379A0;
+	color: #7F3513;
 	font-weight: 300 !important;
 }
 
 h1 a:hover, h2 a:hover, h3 a:hover {
-	color: #A100D8;
+	color: #FF6B26;
 	font-weight: 300 !important;
 }
 
@@ -55,7 +57,7 @@ ol, ul {
 	line-height: 1.8em;
 }
 
-body {
+body !important {
 	/*font-family: TeXGyreHeros, FreeSans, "Nimbus Sans L", "Liberation Sans", Arimo, Helvetica, Verdana, sans-serif;*/
 	font-family: TeXGyreHeros, FreeSans, "Nimbus Sans L", "Liberation Sans", Lato, Helvetica, Verdana, sans-serif;
 	background: #FFF;
@@ -63,12 +65,12 @@ body {
 }
 
 body {
-  overflow-x: hidden; /* Prevent scroll on narrow devices */
+  overflow-x: hidden !important; /* Prevent scroll on narrow devices */
 }
 
 
 body {
-	color: #555;
+	color: #555 !important;
 }
 
 body {
@@ -90,7 +92,7 @@ body {
 
 #port {
 	margin-top: 40px;
-	border-top: 2px dashed #EEE1F1;
+	border-top: 2px dashed #FF6B26;
 }
 
 #docs {
@@ -100,7 +102,7 @@ body {
 
 .gray {
 	/*background-color: #EEE1F1;*/
-	background-color: #F9EFFB;
+	background-color: #D3E0EA;
 	padding-top: 20px;
 	padding-bottom: 5px;
 }
@@ -234,7 +236,7 @@ span.isu {
 }
 
 .navbar-toggle.collapsed:focus .icon-bar {
-	background: #EEE1F1;
+	background: #D75A20;
 }
 
 p.pull-right.visible-xs {
@@ -247,12 +249,12 @@ p.pull-right.visible-xs {
 
 a.navbar-brand:link {
 	text-decoration: none !important;
-	color: #EEE1F1;
+	color: #FAFAFA;
 	font-weight: 600;
 }
 
 a.navbar-brand:visited {
-	color: #EEE1F1;
+	color: #FAFAFA;
 }
 
 a.navbar-brand:hover {
@@ -260,7 +262,7 @@ a.navbar-brand:hover {
 }
 
 a.navbar-brand:focus {
-	outline-color: #EEE1F1;
+	outline-color: #FAFAFA;
     text-decoration: none;
 }
 
@@ -271,18 +273,18 @@ ul.nav > li > a:link {
 }
 
 ul.nav > li > a:visited {
-	color: #DFD3E4
+	color: #7F3513
 }
 
 ul.nav > li > a:hover {
-	color: #A100D8;
+	color: #D75A20;
 }
 
 ul.nav > li > a:focus {
-	outline-color: #EEE1F1;
+	outline-color: #FAFAFA;
     text-decoration: none;
-    background: EAEAEA;
-    color: #A100D8;
+    background: FAFAFA;
+    color: #D75A20;
 }
 
 /*--/////////////////////////////////     
@@ -323,7 +325,7 @@ ul.nav > li > a:focus {
 }
 
 .carousel-indicators .active {
-  background-color: #A100D8;
+  background-color: #D75A20;
 }
 
 #carousel2, #carousel3 {
@@ -382,7 +384,7 @@ a > span.glyphicon-chevron-right {
 }
 
 a:hover > span.glyphicon-chevron-right {
-	color: #A100D8;
+	color: #D75A20;
 }
 
 a > span.glyphicon-chevron-left {
@@ -390,7 +392,7 @@ a > span.glyphicon-chevron-left {
 }
 
 a:hover > span.glyphicon-chevron-left {
-	color: #A100D8;
+	color: #D75A20;
 }
 
 .carousel-caption:hover h3 {
@@ -402,7 +404,7 @@ a:hover > span.glyphicon-chevron-left {
 }
 
 .carousel-caption:hover {
-	background: rgba(249, 239, 251, 0.88);
+	background: rgba(211, 224, 234, 0.88);
 	background-clip: border-box;
 }
 
@@ -467,13 +469,13 @@ div.tab-pane > div {
 
 ul.nav-tabs > li.active > a {
 	background: transparent; 
-	color: #A100D8 !important;
+	color: #D75A20 !important;
 	border: 1px solid transparent;
 	/*border-bottom: 2px solid #A100D8 !important;*/
 }
 
 div#port > div > div > ul.nav-tabs > li.active > a {
-	color: #A100D8 !important;
+	color: #D75A20 !important;
 	border: 2px solid transparent;
 	/*border-bottom: 2px solid #A100D8 !important;*/
 }
@@ -496,20 +498,20 @@ div#port > div > div > ul.nav-tabs > li.active > a:hover {
 
 .nav.nav-tabs > li > a:hover {
 	background-color: transparent;
-	color: #A100D8;
+	color: #FF6B26;
 	border: 2px solid transparent;
 }
 
 .nav.nav-tabs > li > a:visited {
 	background-color: transparent;
-	color: #A100D8;
+	color: #7F3513;
 	border: 2px solid transparent;
 }
 
 .nav.nav-tabs > li.active > a:focus {
 	border: 2px solid transparent;
 	background-color: transparent;
-	color: #A100D8 !important;
+	color: #D75A20 !important;
 	outline: 0;
 }
 
